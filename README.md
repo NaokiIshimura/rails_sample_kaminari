@@ -62,3 +62,15 @@ $ bundle install
 @import "bootstrap-sprockets";
 @import "bootstrap";
 ```
+
+## 日本語化時の注意点
+http://kakakakakku.hatenablog.com/entry/2014/05/01/225207
+```
+# config/locales/ja.yml
+ja:
+  views:
+    pagination:
+      previous: "« 前ページ"
+      next: "次ページ »"
+      truncate: "..."
+```
